@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categories | BlogName</title>
+    <link rel="stylesheet" href="styles3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+     <header class="header">
+        <div class="container">
+            <a href="#" class="logo">Blog<span>Name</span></a>
+            <nav class="navbar">
+                <ul class="nav-list">
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="categories.html" class="active">Categories</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="search-box">
+                    <input type="text" placeholder="Search...">
+                    <i class="fas fa-search"></i>
+                </div>
+            </nav>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+    <section class="categories-hero">
+        <div class="container">
+            <h1 class="animate__animated animate__fadeInDown">Explore Our Categories</h1>
+            <p class="animate__animated animate__fadeInUp">Discover content tailored to your interests</p>
+        </div>
+        <div class="hero-overlay"></div>
+    </section>
+
+    <section class="categories-section">
+        <div class="container">
+            <div class="categories-filter">
+                <button class="filter-btn active" data-filter="all">All Topics</button>
+                <button class="filter-btn" data-filter="technology">Technology</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+                <button class="filter-btn" data-filter="business">Business</button>
+                <button class="filter-btn" data-filter="lifestyle">Lifestyle</button>
+            </div>
+            
+            <div class="categories-grid">
+                <!-- Technology Category -->
+                <div class="category-card technology" data-category="technology">
+                    <div class="category-image">
+                        <img src="technology.webp" alt="Technology">
+                        <div class="image-overlay"></div>
+                    </div>
+                    <div class="category-content">
+                        <span class="article-count">48 Articles</span>
+                        <h3>Technology</h3>
+                        <p>Cutting-edge tech trends, gadgets, and innovations shaping our future</p>
+                        <a href="#" class="explore-btn">
+                            Explore <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Design Category -->
+                <div class="category-card design" data-category="design">
+                    <div class="category-image">
+                        <img src="ui.webp" alt="Design">
+                        <div class="image-overlay"></div>
+                    </div>
+                    <div class="category-content">
+                        <span class="article-count">36 Articles</span>
+                        <h3>Design</h3>
+                        <p>Visual creativity, UI/UX principles, and stunning aesthetics</p>
+                        <a href="#" class="explore-btn">
+                            Explore <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Business Category -->
+                <div class="category-card business" data-category="business">
+                    <div class="category-image">
+                        <img src="bus.webp" alt="Business">
+                        <div class="image-overlay"></div>
+                    </div>
+                    <div class="category-content">
+                        <span class="article-count">29 Articles</span>
+                        <h3>Business</h3>
+                        <p>Entrepreneurship, startups, and strategies for success</p>
+                        <a href="#" class="explore-btn">
+                            Explore <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Lifestyle Category -->
+                <div class="category-card lifestyle" data-category="lifestyle">
+                    <div class="category-image">
+                        <img src="life.jpg" alt="Lifestyle">
+                        <div class="image-overlay"></div>
+                    </div>
+                    <div class="category-content">
+                        <span class="article-count">42 Articles</span>
+                        <h3>Lifestyle</h3>
+                        <p>Travel, health, and personal development for modern living</p>
+                        <a href="#" class="explore-btn">
+                            Explore <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Development Category -->
+                <div class="category-card technology" data-category="technology">
+                    <div class="category-image">
+                        <img src="devlopment.webp" alt="Development">
+                        <div class="image-overlay"></div>
+                    </div>
+                    <div class="category-content">
+                        <span class="article-count">55 Articles</span>
+                        <h3>Development</h3>
+                        <p>Coding tutorials, frameworks, and web development insights</p>
+                        <a href="#" class="explore-btn">
+                            Explore <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Photography Category -->
+                <div class="category-card design" data-category="design">
+                    <div class="category-image">
+                        <img src="photo.webp" alt="Photography">
+                        <div class="image-overlay"></div>
+                    </div>
+                    <div class="category-content">
+                        <span class="article-count">24 Articles</span>
+                        <h3>Photography</h3>
+                        <p>Camera techniques, editing tips, and visual storytelling</p>
+                        <a href="#" class="explore-btn">
+                            Explore <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Marketing Category -->
+                <div class="category-card business" data-category="business">
+                    <div class="category-image">
+                        <img src="market.jpg" alt="Marketing">
+                        <div class="image-overlay"></div>
+                    </div>
+                    <div class="category-content">
+                        <span class="article-count">31 Articles</span>
+                        <h3>Marketing</h3>
+                        <p>Digital strategies, branding, and customer engagement</p>
+                        <a href="#" class="explore-btn">
+                            Explore <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Health Category -->
+                <div class="category-card lifestyle" data-category="lifestyle">
+                    <div class="category-image">
+                        <img src="fitness.jpg" alt="Health">
+                        <div class="image-overlay"></div>
+                    </div>
+                    <div class="category-content">
+                        <span class="article-count">27 Articles</span>
+                        <h3>Health & Fitness</h3>
+                        <p>Nutrition, workouts, and mental wellbeing</p>
+                        <a href="#" class="explore-btn">
+                            Explore <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="view-all">
+                <a href="#" class="btn">
+                    View All Categories <i class="fas fa-long-arrow-alt-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Same footer as other pages -->
+    
+    <script src="script2.js"></script>
+</body>
+</html>
